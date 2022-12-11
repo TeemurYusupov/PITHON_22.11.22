@@ -9,7 +9,7 @@
 import random
 
 def write_file(st):
-    with open('file33.txt', 'w') as data:
+    with open('text_33.txt', 'w') as data:
         data.write(st)
 
 def rnd():
