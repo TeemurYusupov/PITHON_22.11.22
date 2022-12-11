@@ -7,7 +7,6 @@
 # - k=4 => 8*(x**4) + 9*(x**3) + 1*(x**2) + 5*x + 4 = 0 или 8*(x**4) + 5*x + 4 = 0 и т.д.
 
 import random
-
 def write_file(st):
     with open('text_33.txt', 'w') as data:
         data.write(st)
@@ -47,5 +46,5 @@ def create_str(sp):
 k = int(input("Введите натуральную степень k = "))
 koef = create_mn(k)
 write_file(create_str(koef))
-
+print(f"Занесли в файл данные: {create_str(koef)}")
 
